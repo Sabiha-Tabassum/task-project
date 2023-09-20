@@ -1,0 +1,19 @@
+.header{
+    position: relative;
+}
+
+.main-content {
+    position: absolute;
+    width: 217px;
+    height: 42px; 
+    top: 20px; 
+    left: 754px; 
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+
+}
