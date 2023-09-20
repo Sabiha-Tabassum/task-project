@@ -1,0 +1,28 @@
+.sidebar-area {
+    position: absolute;
+    width: 285px;
+    height: 486px;
+    top: 60px;
+    padding: 20px, 14px, 250px, 20px;
+    background: #9398BF;
+
+}
+
+
+.sidebar {
+    position: absolute;
+    width: 55px;
+    height: 19px;
+    top: 20px;
+    left: 20px;
+}
+
+.sidebar p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
