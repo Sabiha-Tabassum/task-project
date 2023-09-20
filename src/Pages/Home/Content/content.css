@@ -6,6 +6,17 @@
     left: 369px;
 }
 
+
+@media (max-width: 500px) {
+    .content-area {
+        position: absolute;
+        width: 331px; 
+        height: 480px; 
+        top: 97px; 
+        left: 22px;
+    }
+}
+
 .content {
 
     font-family: Roboto;
@@ -17,4 +28,3 @@
     color: #000000;
 
 }
-

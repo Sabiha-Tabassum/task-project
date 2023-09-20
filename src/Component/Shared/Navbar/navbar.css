@@ -3,27 +3,67 @@
     width: 1440px;
     height: 60px;
     background: #0C0C0C;
+    color: #FFFFFF;
 }
 
 ul {
     display: flex;
     position: absolute;
-    width: Hug (436px); 
+    width: Hug (436px);
     height: Hug (39px);
-    top: 10px; 
-    left: 502px; 
-    padding: 10px; 
+    top: 10px;
+    left: 502px;
+    padding: 10px;
     gap: 80px;
-    color:#FFFFFF;
+    color: #FFFFFF;
+
 
 }
 
-li{
+li {
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
-    
+
 }
 
 
+.menu {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 25px;
 
+}
+
+
+.responsive-list {
+    position: absolute;
+    background-color: #ADADAD;
+    z-index: 10;
+    top: 0px;
+    width: 206px;
+    height: 695px;
+    left: 169px
+}
+
+.list-item {
+    width: Fixed (181px);
+    height: Hug (200px);
+    padding: 10px, 12px, 10px, 12px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+    color: #0C0C0C;
+    
+
+
+
+}
