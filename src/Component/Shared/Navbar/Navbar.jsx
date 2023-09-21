@@ -14,7 +14,7 @@ const Navbar = () => {
                     <div onClick={() => setIsOpen(!isOpen)}
                         className='pb-1 pt-1'
                     >
-                        <AiOutlineMenu />
+                        {isOpen ? 'X' : <AiOutlineMenu />}
 
                     </div>
 
@@ -28,6 +28,7 @@ const Navbar = () => {
                         <li>Contact</li>
                     </ul>
                 </div>
+
 
 
             </div>
